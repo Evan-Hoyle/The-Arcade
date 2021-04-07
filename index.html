@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Coda|Codystar|Jacques+Francois+Shadow|Unica+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script defer src="app.js"></script>
+        <title>Mancala</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Mancala</h1>
+        <div style="text-align: center;"><a href= "https://www.thesprucecrafts.com/how-to-play-mancala-409424">How to Play</a></div>
+        <h2 style="text-align: center;"><button class="newGame">New Game</button><button class="compGame">Computer VS Player</button></h2>
+        <div id="playerTurn" style="text-align: center;"></div>
+        <div id="playerWin" style="text-align: center;"></div>
+        <div id="player2" class="player">
+            <div>Player:</div>
+            <div class="name">P2</div>
+            <span class="ui-icon edit ui-icon-pencil"></span>
+            
+    
+        </div>
+        <div id="container">
+        <div id="board">
+            <div id="man2" class="pit mancala">Player2</div>
+            <div id="player2pit6" class="pit" data-player="2" data-pit="6"></div>
+            <div id="player2pit5" class="pit" data-player="2" data-pit="5"></div>
+            <div id="player2pit4" class="pit" data-player="2" data-pit="4"></div>
+            <div id="player2pit3" class="pit" data-player="2" data-pit="3"></div>
+            <div id="player2pit2" class="pit" data-player="2" data-pit="2"></div>
+            <div id="player2pit1" class="pit" data-player="2" data-pit="1"></div>
+
+            <div id="player1pit1" class="pit" data-player="1" data-pit="1"></div>
+            <div id="player1pit2" class="pit" data-player="1" data-pit="2"></div>
+            <div id="player1pit3" class="pit" data-player="1" data-pit="3"></div>
+            <div id="player1pit4" class="pit" data-player="1" data-pit="4"></div>
+            <div id="player1pit5" class="pit" data-player="1" data-pit="5"></div>
+            <div id="player1pit6" class="pit" data-player="1" data-pit="6"></div>
+            <div id="man1" class="pit mancala">Player1</div>
+        </div>
+        </div>
+        <div id="player1" class="player">
+            <div>Player:</div>
+            <div class="name">P1</div>
+            <span class="ui-icon edit ui-icon-pencil"></span>
+            
+          
+        </div>
+    </body>
+</html>
